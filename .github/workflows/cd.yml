@@ -15,7 +15,7 @@ jobs:
           path: dist/*
 
   putlish:
-    need: [build]
+    needs: [build]
     runs-on: ubuntu-latest
     environment:
       name: testpypi
