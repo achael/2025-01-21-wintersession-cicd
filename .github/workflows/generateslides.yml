@@ -14,7 +14,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    id: build
     name: build slides
     steps:
       - name: checkout repo
