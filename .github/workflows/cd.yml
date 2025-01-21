@@ -22,7 +22,7 @@ jobs:
       url: https://test.pypi.org/p/cicdexample
     permissions:
       id-token: write
-    step:
+    steps:
       - uses: action/download-artifact@v3
         with:
           name: artifact
